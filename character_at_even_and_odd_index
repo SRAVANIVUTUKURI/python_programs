@@ -1,0 +1,11 @@
+s=input()
+i=0
+print('Characters at Even Index')
+while i<len(s):
+    print(s[i])
+    i=i+2
+i=1 
+print('Characters at Odd index')
+while i<len(s):
+    print(s[i])
+    i=i+2
