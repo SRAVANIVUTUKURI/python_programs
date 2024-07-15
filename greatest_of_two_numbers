@@ -1,0 +1,6 @@
+x1=int(input())
+x2=int(input())
+if x1&gt;x2:
+print(&quot;x1 is Greater&quot;)
+else:
+print(&quot;x2 is Greater&quot;)
