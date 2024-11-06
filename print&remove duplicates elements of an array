@@ -1,0 +1,5 @@
+my_list = [1,2,3,4,1,2]
+duplicates=set([x for x in my_list if my_list.count(x) > 1])
+lis=list(set(my_list))
+print(duplicates)
+print(lis)
