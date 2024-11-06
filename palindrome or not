@@ -1,0 +1,6 @@
+a="madam"
+res=''.join(reversed(a))
+if a==res:
+    print("yes")
+else:
+    print("no")
